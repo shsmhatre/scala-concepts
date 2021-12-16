@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FirstSpec, org.scalatest.tools.Framework$$anon$1@446a60b, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MyFirstTest, org.scalatest.tools.Framework$$anon$1@446a60b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMyFirstTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFirstSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSalary calculation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return proper salary if passed percentage as integer >0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw WrongInputException if passed percentage value as 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should throw UpperBoundException if passed percentage value is more than 100 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected exception UpperBoundException to be thrown, but no exception was thrown (ScalaTestBaseClass.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- should throw LowerBoundException if passed percentage in negative !!! IGNORED !!![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUpper Bound Percentage[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should Throw upper bound exception *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected exception UpperBoundException to be thrown, but no exception was thrown (ScalaTestBaseClass.scala:64)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLower Bound Percentage[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should Throw lower bound exception *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Expected exception LowerBoundException to be thrown, but no exception was thrown (ScalaTestBaseClass.scala:69)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 231 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 3, canceled 0, ignored 1, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 3 TESTS FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyFirstTest[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	FirstSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

@@ -1,0 +1,12 @@
+2021-12-15 17:59:32,097 [INFO] from ScalaLogging in main - Hi This is info line
+2021-12-15 17:59:32,106 [ERROR] from ScalaLogging in main - Hi This is error line
+2021-12-16 08:40:29,943 [INFO] from ScalaLogging in main - Hi This is info line
+2021-12-16 08:40:29,954 [ERROR] from ScalaLogging in main - Hi This is error line
+2021-12-16 08:40:29,964 [ERROR] from ScalaLogging in main - Hi This is error line 2
+2021-12-16 08:45:16,966 [INFO] from ScalaLogging in main - Hi This is info line
+2021-12-16 08:45:16,978 [ERROR] from ScalaLogging in main - Hi This is error line
+2021-12-16 08:45:16,982 [ERROR] from ScalaLogging in main - Hi This is error line 2
+2021-12-16 08:55:30,984 [INFO] from ScalaLogging in main - Hi This is info line
+2021-12-16 08:55:30,991 [DEBUG] from ScalaLogging in main - Hi This is debug line
+2021-12-16 08:55:31,001 [ERROR] from ScalaLogging in main - Hi This is error line
+2021-12-16 08:55:31,010 [ERROR] from ScalaLogging in main - Hi This is error line 2
